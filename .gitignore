@@ -1,0 +1,75 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ======================
+# Virtual Environments
+# ======================
+venv/
+.venv/
+env/
+ENV/
+.virtualenv/
+
+# ======================
+# FastAPI / Uvicorn
+# ======================
+*.log
+logs/
+uvicorn.log
+gunicorn.log
+
+# ======================
+# Environment Variables
+# ======================
+.env
+.env.*
+!.env.example
+
+# ======================
+# Database
+# ======================
+*.sqlite3
+*.db
+
+# ======================
+# Migrations (optional)
+# Uncomment if you want to ignore Alembic versions
+# alembic/versions/
+
+# ======================
+# Caches & Test Artifacts
+# ======================
+.cache/
+pytest_cache/
+.coverage
+htmlcov/
+
+# ======================
+# IDEs & Editors
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# OS Files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Build / Distribution
+# ======================
+build/
+dist/
+*.egg-info/
+
+# ======================
+# Docker (optional)
+# ======================
+.dockerignore
